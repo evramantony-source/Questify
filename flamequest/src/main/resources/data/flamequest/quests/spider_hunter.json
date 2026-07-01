@@ -1,0 +1,1 @@
+{"id":"spider_hunter","title":"Spider Hunter","description":"Spiders drop string — you need that for bows!","category":"Combat","icon":"minecraft:string","prerequisites":[],"objectives":[{"type":"kill","target":"minecraft:spider","count":5,"description":"Kill 5 Spiders"}],"rewards":[{"type":"item","item":"minecraft:string","count":10},{"type":"xp","amount":30}]}

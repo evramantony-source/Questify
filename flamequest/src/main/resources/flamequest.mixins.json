@@ -1,0 +1,10 @@
+{
+    "required": true,
+    "minVersion": "0.8",
+    "package": "com.flamefragger45.flamequest.mixin",
+    "compatibilityLevel": "JAVA_17",
+    "mixins": ["CraftingResultSlotMixin"],
+    "client": [],
+    "server": [],
+    "injectors": { "defaultRequire": 1 }
+}

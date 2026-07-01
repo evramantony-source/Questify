@@ -1,0 +1,1 @@
+{"id":"first_blood","title":"First Blood","description":"Kill your first monster. They come out at night!","category":"Combat","icon":"minecraft:bone","prerequisites":[],"objectives":[{"type":"kill","target":"minecraft:zombie","count":1,"description":"Kill 1 Zombie"}],"rewards":[{"type":"item","item":"minecraft:rotten_flesh","count":4},{"type":"xp","amount":25}]}

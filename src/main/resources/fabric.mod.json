@@ -1,0 +1,22 @@
+{
+    "schemaVersion": 1,
+    "id": "flamequest",
+    "version": "${version}",
+    "name": "FlameQuest",
+    "description": "FTB-style quest system by FlameFragger45",
+    "authors": ["FlameFragger45"],
+    "contact": { "sources": "https://modrinth.com/mod/flamequest" },
+    "license": "MIT",
+    "icon": "assets/flamequest/icon.png",
+    "environment": "*",
+    "entrypoints": {
+        "main":   ["com.flamefragger45.flamequest.FlameQuest"],
+        "client": ["com.flamefragger45.flamequest.FlameQuestClient"]
+    },
+    "mixins": ["flamequest.mixins.json"],
+    "depends": {
+        "fabricloader": ">=0.14.22",
+        "fabric-api": "*",
+        "minecraft": "~1.20.1"
+    }
+}
