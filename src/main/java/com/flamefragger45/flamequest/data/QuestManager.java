@@ -25,10 +25,7 @@ public class QuestManager extends PersistentState {
     // ── Singleton access ─────────────────────────────────────────────────────
     public static QuestManager get(MinecraftServer server) {
         return server.getOverworld().getPersistentStateManager()
-            .getOrCreate(
-                new PersistentState.Type<>(QuestManager::new, QuestManager::fromNbt, null),
-                DATA_KEY
-            );
+            .getOrCreate(QuestManager::fromNbt, QuestManager::new, DATA_KEY);
     }
 
     // ── Per-player helpers ────────────────────────────────────────────────────

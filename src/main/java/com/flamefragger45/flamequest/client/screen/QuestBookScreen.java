@@ -383,10 +383,4 @@ public class QuestBookScreen extends Screen {
         if (!sb.isEmpty()) lines.add(sb.toString().trim());
         return lines;
     }
-
-    @Override
-    public boolean shouldPause() { return false; }
-
-    @Override
-    public boolean isPauseScreen() { return false; }
 }
